@@ -42,7 +42,7 @@ Projeto criado para treino de Front-end, a ideia do projeto veio através do des
 
 
 
-##### Na pasta ./assest/img-git está todas as imagens do projeto
+##### Na pasta ./assets/img-git está todas as imagens do projeto
 
 
 
