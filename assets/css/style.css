@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    font-family: Roboto, Times, serif;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+/* --------------------- Area Menu -------------------*/
+
+#menu{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu-itens{
+    width: 80%;
+    text-align: right;
+    
+}
+
+#menu-lista li{
+    width: 100px;
+    height: 100%;
+    margin-right: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    display: inline;
+}
+
+#menu-lista a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu-lista a:hover{
+    text-decoration: none;
+    color: #D6000D;
+}
+
+#menu-lista span{
+    background-color: #D6000D;
+    padding: 8px 50px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-lista span:hover{
+    background-color: red;
+}
+
+#logo{
+    width: 20%;
+    min-height: 100%;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    color: #D6000D;
+}
+
+#logo span{
+    color: #000000;
+}
+
+/* --------------------- Area Principal -------------------*/
+
+#principal{
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Image one */
+.page-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page-1 .img-1{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.page-1 .img-1 img{
+    width: 60%;
+    height: 60%;
+    margin-top: 150px;
+}
+
+.page-1 .main-text{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+}
+
+.page-1 .main-text .text-1{
+    width: 100%;
+    margin-top: 330px;
+}
+
+.page-1 .main-text .text-1 h2{
+    margin-left: 20%;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.page-1 .main-text .text-1 h1{
+    margin-left: 20%;
+    font-size: 74px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    color: #D6000D;
+}
+
+.page-1 .main-text .text-1 a{
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px 60px;
+    border-radius: 15px;
+    background-color: #D6000D;
+}
+
+.page-1 .main-text .text-1 a:hover{
+    background-color: red;
+}
+
+/* Page 2 */
+.page-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.page-2 .services{
+    width: 50%;
+    height: 100%;;
+}
+
+.page-2 .services ul{
+    margin-top: 300px;
+    margin-left: 20%;;
+}
+
+.page-2 .services li{
+    font-size: 35px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.page-2 .services span{
+    background-color: #D6000D;
+    padding: 4px 10.9px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+
+
+.page-2 .img-2{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.page-2 .img-2 img{
+    width: 60%;
+    height: 60%;
+    margin-top: 150px;
+}
+
+/* contact area */
+.contact{
+    width: 100%;
+    height: 25vh;;
+}
+
+.contact .text-contact{
+    font-size: 24px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.contact .contact-area{
+    margin-left: 10%;
+}
+
+.contact .contact-area input{
+    background-color: lightgray;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+}
+
+.contact .contact-area button{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #D6000D;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact .contact-area button:hover{
+    background-color: red;
+}
+
+/* Page 3 - Comments */ 
+.page-3{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-3 .comments-area{
+    background-color: lightgray;
+    width: 45%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.page-3 .comments-area .profile .foto{
+    background-color: #D6000D;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.page-3 .comments-area .informacoes{
+    margin: 30px;
+}
+
+.page-3 .comments-area .informacoes .texto{
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.page-3 .comments-area .informacoes .nome{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.page-3 .comments-area .informacoes .empresa{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Rodape */
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+footer .rodape{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Logo Rodape*/
+footer .rodape .logo-rodape{
+   width: 20%;
+   margin-left: 80px;
+}
+
+footer .rodape .logo-rodape h1{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+footer .rodape .logo-rodape p{
+    font-size: 22px;
+    margin-top: 0;
+}
+
+/*Sobre Rodape*/
+footer .rodape .sobre-rodape{
+    width: 20%;
+ }
+
+ footer .rodape .sobre-rodape h2{
+     margin-bottom: 20px;
+ }
+
+ /*Contato Rodape*/
+ footer .rodape .contato-rodape{
+    width: 20%;
+ }
+
+ footer .rodape .contato-rodape h2{
+     margin-bottom: 20px;
+ }
+
+ footer .rodape .contato-rodape p{
+     margin-bottom: 10px;
+ }
+
+ footer .rodape .contato-rodape a{
+     text-decoration: none;
+     color: #FFFFFF;
+ }
+
+ footer .rodape .contato-rodape a:hover{
+     color: red;
+ }
+
+ /*Redes Sociais Rodape*/
+ footer .rodape .redes-sociais-rodape{
+    width: 20%;
+ }
+
+ footer .rodape .redes-sociais-rodape h2{
+     margin-bottom: 20px;
+ }
+
+ footer .rodape .redes-sociais-rodape a{
+     display: inline-block;
+     color: #D6000D;
+     font-size: 40px;
+     padding: 5px;
+ }
+
+ footer .rodape .redes-sociais-rodape a:hover{
+     color: #FFFFFF;
+ }
+
+
+
+ /* responsividade */ 
+
+@media (max-width: 1024px){
+    /* Image one */
+    .page-1 .img-1 img{
+        width: 50%;
+        height: 50%;
+        margin-top: 150px;
+    }
+
+    .page-1 .main-text .text-1 h2{
+        margin-left: 10%;
+        font-size: 26px;
+    }
+
+    .page-1 .main-text .text-1 h1{
+        margin-left: 10%;
+        font-size: 60px;
+    }
+
+    .page-1 .main-text .text-1 a{
+        margin-left: 10%;
+    }
+
+    /* Page 2 */
+
+    .page-2 .services li{
+        font-size: 24px;
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    .page-2 .services span{
+        padding: 2px 8.9px;
+        border-radius: 21px;
+    }
+
+    .page-2 .img-2 img{
+        width: 50%;
+        height: 50%;
+        margin-top: 150px;
+    }
+
+ }
+
+ @media (max-width: 930px){
+     /* page 1 */
+    .page-1 .img-1 img{
+        width: 50%;
+        height: 40%;
+        margin-top: 220px;
+    }
+
+    .page-1 .main-text .text-1 h2{
+        margin-left: 10%;
+        font-size: 22px;
+    }
+
+    .page-1 .main-text .text-1 h1{
+        margin-left: 10%;
+        font-size: 55px;
+    }
+
+    /* page 2 */
+    .page-2 .img-2 img{
+        width: 50%;
+        height: 40%;
+        margin-top: 220px;
+    }
+
+     /* Page 3 - Comments */ 
+    .page-3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-3 .comments-area{
+        width: 90%;
+        height: 100%;
+    }
+
+ }
+
+ @media (max-width: 852px){
+    /* page 1 */
+
+   .page-1 .main-text .text-1 h2{
+       margin-left: 10%;
+       font-size: 20px;
+   }
+
+   .page-1 .main-text .text-1 h1{
+       margin-left: 10%;
+       font-size: 52px;
+   }
+
+}
+
+@media (max-width: 768px){
+    #menu{
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #menu-itens{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+        
+    }
+    
+    #menu-lista li{
+        width: 100px;
+        height: 100%;
+        margin-right: 0;
+        padding: 40px;
+        font-weight: bold;
+    }
+
+    /* Image one */
+    .page-1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-1 .img-1{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .page-1 .main-text{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .page-1 .main-text .text-1{
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .page-1 .main-text .text-1 h2{
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .page-1 .main-text .text-1 h1{
+        margin: 0;
+    }
+
+    .page-1 .main-text .text-1 a{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    /* Page 2 */
+    .page-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-2 .services{
+        width: 100%;
+        height: 100%;
+    }
+
+    .page-2 .services ul{
+        margin-top:20px;
+        margin-bottom: 150px;
+    }
+
+    .page-2 .services ul li {
+        font-size: 32px;
+    }
+
+    .page-2 .img-2{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .page-2 .img-2 img{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+
+    /* contact area */
+    .contact{
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact .text-contact{
+        font-size: 24px;
+        margin-top: 150px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contact .contact-area{
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 150px;
+    }
+
+    /* Rodape */
+
+    footer{
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .rodape{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*Logo Rodape*/
+    footer .rodape .logo-rodape{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    /*Sobre Rodape*/
+    footer .rodape .sobre-rodape{
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    /*Contato Rodape*/
+    footer .rodape .contato-rodape{
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    /*Redes Sociais Rodape*/
+    footer .rodape .redes-sociais-rodape{
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 676px){
+    #menu-itens{
+        width: 80%;
+    }
+
+    #menu-lista span{
+        display:none;
+    }
+
+    #menu-itens li{
+        font-size: 26px;
+    }
+}
+
+
+@media (max-width: 636px){
+    #menu-itens{
+        display: none;
+    }
+
+    #logo{
+        width: 100%;
+        font-size: 68px;
+        border: 1px solid red;
+    }
+}
+
+@media (max-width: 425px){
+    .page-2 .services .list li{
+        font-size: 18px;
+    }
+    
+    .page-2 .services span{
+        padding: 2px 8.9px;
+        border-radius: 21px;
+        margin-right: 30px;
+    }
+
+    .contact .contact-area input{
+        margin-bottom: 20px;
+    }
+
+}
+
+ 
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
